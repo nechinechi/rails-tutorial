@@ -45,4 +45,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # Access an IRB console on exception pages or by using <%= console %> in views
+  gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+end
+
 gem 'rename'
